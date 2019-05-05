@@ -1,0 +1,134 @@
+body {
+    margin: 0 auto;
+    background-color: #FAFAFA;
+}
+
+.nameApp {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+
+    &__eco {
+        font-size: 25px;
+        color: #2ECC71;
+        font-family: Arial;
+    }
+}
+
+.profil {
+    width: 80%;
+    display: flex;
+    margin: 35px;
+    justify-content: space-between;
+    align-items: center;
+
+    &__agathe {
+        width: 68px;
+        height: 68px;
+    }
+
+    &__text {
+        width: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    &__text-1 {
+        font-family: Arial;
+        font-size: 15px;
+        color: #ff4f19;
+    }
+
+    &__text-2 {
+        font-family: Arial;
+        font-size: 15px;
+        color: #ff4f19;
+    }
+}
+
+.infoProfil {
+    text-align: center;
+    margin: 35px;
+
+    &__order {
+        width: 302px;
+        height: 39px;
+        border-radius: 20px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        margin-bottom: 35px;
+    }
+
+    &__order-text {
+        font-family: Arial;
+        font-size: 15px;
+        color: #ff4f19;
+        padding-top: 10px;
+    }
+
+    &__cook {
+        width: 302px;
+        height: 39px;
+        border-radius: 20px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        margin-bottom: 35px;
+    }
+
+    &__cook-text {
+        font-family: Arial;
+        font-size: 15px;
+        color: #ff4f19;
+        padding-top: 10px;
+    }
+
+    &__idearecipe {
+        width: 302px;
+        height: 39px;
+        border-radius: 20px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        margin-bottom: 35px;
+    }
+
+    &__idearecipe-text {
+        font-family: Arial;
+        font-size: 15px;
+        color: #ff4f19;
+        padding-top: 10px;
+    }
+
+    &__favorite {
+        width: 302px;
+        height: 39px;
+        border-radius: 20px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        margin-bottom: 35px;
+    }
+
+    &__favorite-text {
+        font-family: Arial;
+        font-size: 15px;
+        color: #ff4f19;
+        padding-top: 10px;
+    }
+
+    &__jackpot {
+        width: 302px;
+        height: 39px;
+        border-radius: 20px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        margin-bottom: 35px;
+    }
+
+    &__jackpot-text {
+        font-family: Arial;
+        font-size: 15px;
+        color: #ff4f19;
+        padding-top: 10px;
+    }
+
+}

@@ -1,0 +1,46 @@
+body {
+  margin: 0 auto;
+  background-color: #FAFAFA;
+}
+
+.tapbar {
+  width: 375px;
+  height: 63px;
+  background-color: #27ae60;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+}
+.tapbar__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100px;
+}
+.tapbar__box-text {
+  font-family: Arial;
+  font-size: 10px;
+  color: #f4f4f4;
+  margin-top: 3px;
+}
+.tapbar__box-img1 {
+  width: 25px;
+  height: 30px;
+  margin: auto;
+}
+.tapbar__box-img2 {
+  width: 35px;
+  height: 30px;
+  margin: auto;
+}
+.tapbar__box-img3 {
+  width: 40px;
+  height: 34px;
+  margin: auto;
+}
+.tapbar__box-img4 {
+  width: 55px;
+  height: 30px;
+  margin: auto;
+}

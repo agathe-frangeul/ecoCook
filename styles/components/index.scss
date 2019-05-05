@@ -1,0 +1,209 @@
+body {
+    margin: 0 auto;
+    background-color: #FAFAFA;
+
+}
+
+.nameApp {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+
+    &__eco {
+        font-size: 25px;
+        color: #2ECC71;
+        font-family: Arial;
+    }
+}
+
+.sliderMonth {
+    width: 375px;
+    height: 51px;
+    background-color: #2ecc71;
+
+    &__april {
+        font-family: Arial;
+        font-size: 25px;
+        color: #f4f4f4;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    &__2019 {
+        height: 17px;
+        font-family: Arial;
+        color: #f4f4f4;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    &__arrow-1 {
+        width: 8.6px;
+        height: 16px;
+    }
+
+    &__arrow-2 {
+        width: 8.6px;
+        height: 16px;
+    }
+}
+
+.week {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: -50px;
+
+
+    &__day {
+        width: 26px;
+        height: 20px;
+        font-family: Arial;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.13;
+        letter-spacing: normal;
+        text-align: left;
+        color: #27ae60;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__day-off {
+        width: 32px;
+        height: 20px;
+        opacity: 0.5;
+        font-family: Arial;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.13;
+        letter-spacing: normal;
+        text-align: left;
+        color: #27ae60;
+    }
+}
+
+.calender {
+    width: 300px;
+    margin: 35px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: -30px;
+
+    &__day {
+        width: 42px;
+        height: 28px;
+        font-family: Arial;
+        font-size: 25px;
+        line-height: 1.16;
+        color: #27ae60;
+    }
+
+    &__dayChoose {
+        font-family: Arial;
+        font-size: 25px;
+        line-height: 1.16;
+        color: #27ae60;
+        width: 35px;
+        height: 35px;
+        border-radius: 9px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        border: solid 1px #ff4f19;
+        background-color: rgba(255, 79, 25, 0.3);
+    }
+
+    &__dayOff {
+        width: 16px;
+        height: 28px;
+        opacity: 0.5;
+        font-family: Arial;
+        font-size: 25px;
+        line-height: 1.16;
+        color: #27ae60;
+    }
+}
+
+.titleDay {
+    width: 80%;
+    height: 30px;
+    margin: 0 auto;
+
+    &__text {
+        font-family: Arial;
+        font-size: 25px;
+        color: #ff4f19;
+        text-align: center;
+    }
+}
+
+.container {
+    width: 80%;
+    height: 300px;
+    margin: 35px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+    &__chef {
+        width: 146px;
+        height: 98px;
+        margin-bottom: 15px
+    }
+}
+
+.tapbar {
+    width: 375px;
+    height: 63px;
+    background-color: #27ae60;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100px;
+
+
+        &-text {
+            font-family: Arial;
+            font-size: 10px;
+            color: #f4f4f4;
+            margin-top: 3px;
+        }
+
+        &-img1 {
+            width: 25px;
+            height: 30px;
+            margin: auto;
+        }
+
+        &-img2 {
+            width: 35px;
+            height: 30px;
+            margin: auto;
+        }
+
+        &-img3 {
+            width: 40px;
+            height: 34px;
+            margin: auto;
+        }
+
+        &-img4 {
+            width: 55px;
+            height: 30px;
+            margin: auto;
+        }
+    }
+}

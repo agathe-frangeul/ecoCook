@@ -1,0 +1,60 @@
+.nameApp {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+
+    &__eco {
+        font-size: 25px;
+        color: #2ECC71;
+        font-family: Arial;
+    }
+}
+
+.info {
+    background: url('/assets/images/background_challenge.png')no-repeat;
+    background-size: 100%;
+    height: 812px;
+
+    &__container {
+        width: 322px;
+        height: 722px;
+        border: 2px solid grey;
+        margin: 15px auto;
+
+        &-title {
+            font-family: Arial;
+            font-size: 25px;
+            color: #FF4F19;
+            padding-top: 60px;
+            text-align: center;
+            padding-bottom: 40px;
+        }
+
+        &-circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 100px auto;
+        }
+
+        &-circleBin {
+            width: 200px;
+            height: 200px;
+        }
+
+        &-button {
+            margin: auto;
+
+            font-family: Arial;
+            text-align: center;
+            color: #f0efef;
+            padding-top: 26px;
+            width: 184px;
+            height: 44px;
+            border-radius: 11px;
+            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+            background-color: #2ecc71;
+        }
+    }
+
+}
